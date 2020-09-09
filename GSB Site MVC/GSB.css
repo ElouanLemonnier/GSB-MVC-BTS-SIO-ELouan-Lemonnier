@@ -1,0 +1,257 @@
+body {
+  margin : 0;
+  background-image: url("images/Fond.png");
+  background-size: cover;
+  font-family: 'Open Sans';
+}
+header {
+  color: #F1F2E1;
+  background-color: #66A3D3;
+  padding-top: 10px;
+  width: 100%;
+  height: 157px;
+  border-bottom: white 3px solid; 
+}
+p {
+	text-align: justify;
+	margin: 40px 20px; 
+	font-family: 'Noto Serif TC';
+	font-size: 1,1rem;
+}
+.logo {
+	border: 1px #00001F solid;
+    width: 189px;
+    height: 117px;
+    background-color: #EFEFFF;
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative; 
+}
+.titre {
+	text-align: top;
+	text-indent: 460px;
+	margin-top: -120px;
+}
+.connection {
+	margin: auto;
+	width: 25%;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	height: 383px;
+	background-color: rgba(102, 163, 211, 0.85);
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+.lock {
+	padding-top: 20px;
+}
+.bouton {
+	margin-top: 15px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #66A3D3;
+    background-color: #EFEFFF;
+    border: #66A3D3 solid 2px;
+    border-radius: 5px;
+}
+.bouton:hover {
+    background-color: #66A3D3;
+    border: white solid 2px;
+    color: white;
+}
+.bouton:active {
+    background-color: #CFCFCF;
+    color: #3673A3;
+    border: #3673A3 solid 2px;
+}
+
+#Deconnexion {
+}
+
+.fondBleu {
+	margin: auto;
+	width: 25%;
+	margin-top: 115px;
+	margin-bottom: 25px;
+	background-color: rgba(102, 163, 211, 0.85);
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+
+.fondBleu h3 {
+	padding-top: 20px;
+
+}
+
+form {
+	margin: auto;
+	position: relative;
+}
+
+.form {
+	padding-top: 10px;
+}
+.form p {
+  text-align: center;
+  margin: 9px;
+}
+.formFicheFrais {
+  width: 60%;
+}
+fieldset {
+  margin: 20px 40px;
+}
+legend {
+    font-size: 1rem;
+}
+
+.boutonConnec {
+	margin-top: 5px;
+	margin-bottom: 20px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #66A3D3;
+    background-color: #EFEFFF;
+    border: #66A3D3 solid 2px;
+    border-radius: 5px;
+}
+.boutonConnec:hover {
+    background-color: #66A3D3;
+    border: white solid 2px;
+    color: white;
+}
+.boutonConnec:active {
+    background-color: #CFCFCF;
+    color: #3673A3;
+    border: #3673A3 solid 2px;
+}
+
+.boutonD {
+  float: right;
+}
+
+
+
+.caseFiche {
+  float: left;
+  margin-left: 240px;
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  height: 383px;
+  background-color: rgba(102, 163, 211, 0.85);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+i {
+  margin-top: 20px;
+}
+
+.ID {
+  text-align: center;
+  float: right;
+  margin-right: 20px;
+  font-family: 'Noto Serif TC';
+}
+.ID h4{
+  margin: 9px;
+}
+
+.fontBlancRens {
+  width: 75%;
+  height: 435px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px; 
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.titreRenseigner {
+  font-family: 'Noto Serif TC';
+  margin-left: 30px;
+  padding-top: 20px; 
+}
+
+.fondBlancCons {
+  width: 75%;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px; 
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.btndroite {
+  float: right;
+  margin: 10px 40px;
+}
+
+.boutonMod {
+  margin-top: 10px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  color: #66A3D3;
+  background-color: #EFEFFF;
+  border: #66A3D3 solid 2px;
+  border-radius: 5px;
+}
+.boutonMod:hover {
+    background-color: #66A3D3;
+    border: white solid 2px;
+    color: white;
+}
+.boutonMod:active {
+    background-color: #CFCFCF;
+    color: #3673A3;
+    border: #3673A3 solid 2px;
+}
+
+.ficheR {
+  padding: 25px;
+}
+
+.fiche h3 {
+  position: relative;
+}
+.fin_flottant {
+  clear: both;
+  margin: 10px 0;
+}
+
+.titreCons {
+  padding-top: 20px;
+  margin-left: 50px;
+  font-family: 'Noto Serif TC';
+  width: 50%
+}
+
+.fiche p {
+  margin: 20px; 
+  font-family: 'Noto Serif TC';
+  font-size: 1rem;
+  text-align: left;
+}
+
+.alerte {
+  font-family: 'Noto Serif TC';
+  color: #FC6;
+}
+
+.mois {
+  margin-left: 20px;
+  padding-top: 20px;
+}
